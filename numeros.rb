@@ -13,3 +13,13 @@ n = ARGV[0].to_i
 # end
 
 # # 1.upto(n) {|j| print j, ""}
+
+#sin ciclo anidado
+
+numbers = ''
+cant.times do |i|
+    numbers += "#{i+1}"
+    print numbers
+    print ' '
+end
+puts
